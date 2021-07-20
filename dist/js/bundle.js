@@ -439,7 +439,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         /**
          * The text used before any files are dropped.
          */
-        dictDefaultMessage: "Drop files here to upload",
+        dictDefaultMessage: "Thả ảnh hoặc click để tải lên.",
 
         /**
          * The text that replaces the default message text it the browser is not supported.
@@ -488,7 +488,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         /**
          * If `addRemoveLinks` is true, the text to be used to remove a file.
          */
-        dictRemoveFile: "Remove file",
+        dictRemoveFile: "Hủy",
 
         /**
          * If this is not null, then the user will be prompted before removing a file.
@@ -33625,7 +33625,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("download").disabled = true;
     document.getElementById("angle-control").disabled = true;
     document.getElementById("scale-control").disabled = true;
-    document.getElementById("upload-text").innerHTML = "Drop files here or click to upload.";
+    document.getElementById("upload-text").innerHTML = "Thả ảnh hoặc click để tải lên.";
   }); // Change the canvas frames
   // one per frame
   // add your frames here
@@ -33650,9 +33650,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     if (window.URL && e) {
-      if (window.navigator.msSaveOrOpenBlob) window.navigator.msSaveOrOpenBlob(t, "profile-pic.jpeg");else {
+      if (window.navigator.msSaveOrOpenBlob) window.navigator.msSaveOrOpenBlob(t, "hợp-lực-covid.jpg");else {
         var r = document.createElement("a");
-        r.href = e, r.download = "profile-pic.jpeg", document.body.appendChild(r), r.click(), document.body.removeChild(r);
+        r.href = e, r.download = "hợp-lực-covid.jpg", document.body.appendChild(r), r.click(), document.body.removeChild(r);
       }
     }
   }, false);

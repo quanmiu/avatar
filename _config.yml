@@ -13,7 +13,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Avatar Framer
+title: Khung covid Hợp Lực!
 description: >- # this means to ignore newlines"
   A simple tool to create framed profile pictures for social media in support of a cause.
   Dynamically generate a static site based off of the number of frame images provided.
@@ -26,7 +26,7 @@ step-1: "Tải ảnh vào dưới đây."
 step-2: "Dùng các công cụ để chỉnh kích thước, xoay, và vị trí ảnh."
 step-3: "Chọn khung ảnh."
 step-4: "Tải ảnh profile mới về!"
-step-5: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_covid!"
+step-5: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_covid !"
 footer-text: "&copy; 2021 QuanLe CAPPLUS,. Jsc. All rights reserved."
 
 # Header Nav Link
