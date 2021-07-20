@@ -1,0 +1,82 @@
+# Avatar Framer Config
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Avatar Framer
+description: >- # this means to ignore newlines"
+  A simple tool to create framed profile pictures for social media in support of a cause.
+  Dynamically generate a static site based off of the number of frame images provided.
+
+# Copy
+# Fill in your copy for the title and steps here
+# 
+title-text: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_covid !"
+step-1: "Tải ảnh vào dưới đây."
+step-2: "Dùng các công cụ để chỉnh kích thước, xoay, và vị trí ảnh."
+step-3: "Chọn khung ảnh."
+step-4: "Tải ảnh profile mới về!"
+step-5: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_covid!"
+footer-text: "&copy; 2021 QuanLe CAPPLUS,. Jsc. All rights reserved."
+
+# Header Nav Link
+#
+nav-link: "https://hopluccorp.vn"
+nav-link-text: "HOPLUC"
+
+# Buttons and upload form
+# 
+upload-text: "Thả ảnh hoặc click để tải lên."
+download-button-text: "Tải ảnh xuống"
+
+# Logo & Favicon
+# 
+logo: "logo.png"
+favicon: "favicon.ico"
+
+# Footer links
+# 
+footer-links:
+  - text: "Hợp Lực"
+    link: "https://hopluccorp.vn"
+
+  - text: "CAPPLUS"
+    link: "https://capplus.vn"
+
+  - text: "Bác Gúc!"
+    link: "http://google.com"
+
+# Open Graph and Twitter Cards
+#
+og-title: Create your own avatar generating website
+og-description: Create your own avatar generating website
+og-url: 
+og-image: "og-image.png"
+og-image-width: 1280
+og-image-height: 640
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+# 
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - "*.config.js"
+  - "*.config.json"
+  - "package*.json"
+  - README.md
+  - docs
