@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("download").disabled = true;
     document.getElementById("angle-control").disabled = true;
     document.getElementById("scale-control").disabled = true;
-    document.getElementById("upload-text").innerHTML = "Drop files here or click to upload.";
+    document.getElementById("upload-text").innerHTML = "Thả ảnh hoặc click để tải lên.";
   });
 
   // Change the canvas frames
@@ -148,12 +148,12 @@ document.addEventListener("DOMContentLoaded", function(){
   // create a link and simulate a click to download the file
   var download = document.getElementById("download");
   download.addEventListener('click', function() {
-    var e = canvas.toDataURL({ format: "jpeg", quality: 1, multiplier: 4});
+    var e = canvas.toDataURL({ format: "jpg", quality: 1, multiplier: 4});
     if (window.URL && e) {
-        if (window.navigator.msSaveOrOpenBlob) window.navigator.msSaveOrOpenBlob(t, "profile-pic.jpeg");
+        if (window.navigator.msSaveOrOpenBlob) window.navigator.msSaveOrOpenBlob(t, "profile-pic.jpg");
         else {
             var r = document.createElement("a");
-            (r.href = e), (r.download = "profile-pic.jpeg"), document.body.appendChild(r), r.click(), document.body.removeChild(r);
+            (r.href = e), (r.download = "profile-pic.jpg"), document.body.appendChild(r), r.click(), document.body.removeChild(r);
         }
     }
   }, false);
