@@ -13,7 +13,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Khung covid Hợp Lực!
+title: Khung avatar Hợp Lực!
 description: >- # this means to ignore newlines"
   A simple tool to create framed profile pictures for social media in support of a cause.
   Dynamically generate a static site based off of the number of frame images provided.
@@ -21,13 +21,13 @@ description: >- # this means to ignore newlines"
 # Copy
 # Fill in your copy for the title and steps here
 # 
-title-text: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_covid !"
+title-text: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_13 !"
 step-1: "Tải ảnh vào dưới đây."
 step-2: "Dùng các công cụ để chỉnh kích thước, xoay, và vị trí ảnh."
 step-3: "Chọn khung ảnh."
 step-4: "Tải ảnh profile mới về!"
-step-5: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_covid !"
-footer-text: "&copy; 2021 QuanLe CAPPLUS,. Jsc. All rights reserved."
+step-5: "Đăng lên mạng xã hội với #Hopluc và #Hopluc_13 !"
+footer-text: "&copy; 2022 QuanLe CAPPLUS,. JSC. All rights reserved."
 
 # Header Nav Link
 #
@@ -58,8 +58,8 @@ footer-links:
 
 # Open Graph and Twitter Cards
 #
-og-title: Thay khung avatar covid Hợp Lực
-og-description: Thay khung avatar covid Hợp Lực
+og-title: Vào đây để thay khung avatar Hợp Lực
+og-description: "&copy; 2022 QuanLe CAPPLUS,. JSC. All rights reserved."
 og-url: 
 og-image: "og-image.png"
 og-image-width: 1280
